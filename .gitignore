@@ -1,0 +1,25 @@
+# 本地密钥与覆盖配置（勿提交）
+.env
+.env.*
+**/application-local.yml
+**/application-local.properties
+
+# 构建产物
+**/target/
+**/node_modules/
+**/dist/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+
+# 系统与日志
+.DS_Store
+Thumbs.db
+*.log
+
+# 前端忽略
+project-sky-admin-vue-ts/node_modules
+project-sky-admin-vue-ts/dist
